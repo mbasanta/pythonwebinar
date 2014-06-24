@@ -175,6 +175,7 @@
 
 - Start with a demo
 
+
 ```pycon
     >>> 3 * 8
     24
@@ -211,3 +212,24 @@
 - Conversion
     - `int(17.9)`, `int(round(17.9))`
     - `float(17)`
+
+###Strings
+
+- Quotation Concepts and New Line Concepts
+    - Can be specified using single or double quotes
+    - Escape sequences 
+    - Defining a raw string (r"blah blah blah")
+    - Defining a new line
+
+- Demo
+```pycon
+    >>> print 'I\'ll be back'
+    I'll be back
+    >>> print 'C:\Python27\newPath\path\path'
+    C:\Python27
+    ewPath\path\path
+    >>> r'C:\Python27\newPath\path\path'
+    C:\Python27\newPath\path\path
+
+```
+
