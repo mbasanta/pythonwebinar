@@ -1,5 +1,10 @@
 # 3. ArcGIS Python Window
 
+## Quick Gotcha
+
+- Indented code vs curly brackets
+- TODO: Expand this
+
 ## Demo
 
 - Open ArcMap
