@@ -29,8 +29,14 @@
     24
     >>> 16 / 4
     4
+    >>> 17 / 4
+    4
+    >>> 18 / 4
+    4
     >>> 17 % 4
     1
+    >>> 18 % 4
+    2
     >>> 7 / 3
     2
     >>> 7 / 3.0
@@ -68,7 +74,35 @@
 
 ### List
 
+```pycon
+    >>> l1 = [1, 2, 3, 4, 5]
+    >>> l1[0]
+    1
+    >>> l1[4]
+    5
+    >>> l2 = ['one', 'two', 'three', 'four']
+    >>> l2[3]
+    'four'
+    >>> l2[3] = 4
+    >>> l2
+    ['one', 'two', 'three', 4]
+    >>>
+```
+
 ### Tuple
+
+```pycon
+    >>> t1 = (1,2,3)
+    >>> t1[0]
+    1
+    >>> t1[2] = 30
+
+    Traceback (most recent call last):
+      File "<pyshell#29>", line 1, in <module>
+        t1[2] = 30
+    TypeError: 'tuple' object does not support item assignment
+    >>> 
+```
 
 ### Strings
 
@@ -98,3 +132,12 @@
 
 ## Dictionaries
 
+```pycon
+    >>> d1 = {'one':1, 'two':2, 'three':3}
+    >>> d1['three']
+    3
+    >>> d1['two'] = 'dos'
+    >>> d1
+    {'three': 3, 'two': 'dos', 'one': 1}
+    >>> 
+```
