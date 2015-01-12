@@ -3,7 +3,7 @@
 ## Quick Gotcha
 
 - Indented code vs curly brackets
-- TODO: Expand this
+- Be consistent
 
 ## Demo
 

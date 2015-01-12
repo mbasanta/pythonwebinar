@@ -22,3 +22,5 @@
 - Data Types
     - Numbers
     - Collections
+
+## 5. [Set up embed z values](modules/module5.md)

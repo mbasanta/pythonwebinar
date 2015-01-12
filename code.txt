@@ -1,0 +1,53 @@
+>>> 2 * 3
+6
+>>> x = 1
+>>> print(x)
+1
+>>> 2 + 3
+5
+>>> 2 + 3 + x
+6
+>>> x
+1
+>>> x = 17
+>>> print(x)
+17
+>>> x
+17
+>>> if x == 17:
+...     print('Correct')
+...     
+Correct
+>>> if x == 1:
+...     print('Correct')
+... else:
+...     print('WRONG')
+...     
+WRONG
+>>> if x == 1:
+...     print('Correct')
+...     
+>>> else:
+Parsing error SyntaxError: invalid syntax (line 1)
+>>> if x == 1:
+...     print('Correct')
+... else:
+...     print('Wrong')
+...     
+Wrong
+>>> import arcpy
+>>> arcpy.GetInstalledInfo()
+Runtime error 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+AttributeError: 'module' object has no attribute 'GetInstalledInfo'
+>>> arcpy.GetInstallInfo()
+{'SourceDir': u'X:\\design_tools\\ESRI\\VERSION_10.1\\DESKTOP\\', 'InstallDate': u'10/10/2014', 'InstallDir': u'c:\\program files (x86)\\arcgis\\desktop10.1\\', 'ProductName': u'Desktop', 'BuildNumber': u'3143', 'InstallType': u'N/A', 'Version': u'10.1', 'SPNumber': u'1', 'Installer': u'mbasanta', 'SPBuild': u'10.1.1.3143', 'InstallTime': u'13:49:50'}
+>>> arcpy.GetInstallInfo
+<function GetInstallInfo at 0x20543830>
+>>> x = arcpy.GetInstallInfo
+>>> x
+<function GetInstallInfo at 0x20543830>
+>>> x()
+{'SourceDir': u'X:\\design_tools\\ESRI\\VERSION_10.1\\DESKTOP\\', 'InstallDate': u'10/10/2014', 'InstallDir': u'c:\\program files (x86)\\arcgis\\desktop10.1\\', 'ProductName': u'Desktop', 'BuildNumber': u'3143', 'InstallType': u'N/A', 'Version': u'10.1', 'SPNumber': u'1', 'Installer': u'mbasanta', 'SPBuild': u'10.1.1.3143', 'InstallTime': u'13:49:50'}
+>>> 
