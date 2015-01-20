@@ -24,3 +24,5 @@
     - Collections
 
 ## 5. [Set up embed z values](modules/module5.md)
+
+## 6. [Geoprocessing to embed z values](modules/module6.md)

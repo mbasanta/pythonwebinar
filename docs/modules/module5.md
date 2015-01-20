@@ -91,10 +91,10 @@ def embed_z():
 
     # Copy feature classes
     arcpy.AddMessage('Copying features...')
-    arcpy.Copy_management(xs_source, os.path.join(SCRATCH_GDB, S_XS))
-    arcpy.Copy_management(pbl_source, os.path.join(SCRATCH_GDB, S_PROFIL_BASLN))
-    arcpy.Copy_management(struct_source, os.path.join(SCRATCH_GDB, S_GEN_STRUCT))
-    arcpy.CopyTin_3d(wse_source, os.path.join(SCRATCH_GDB, WSE))
+    arcpy.Copy_management(xs_source, os.path.join(new_gdb, S_XS))
+    arcpy.Copy_management(pbl_source, os.path.join(new_gdb, S_PROFIL_BASLN))
+    arcpy.Copy_management(struct_source, os.path.join(new_gdb, S_GEN_STRUCT))
+    arcpy.CopyTin_3d(wse_source, os.path.join(gdb_path, WSE))
     arcpy.AddMessage('Done copying features.')
 
     arcpy.CheckInExtension('3D')
